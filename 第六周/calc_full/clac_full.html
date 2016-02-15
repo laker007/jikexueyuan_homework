@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/calc_full.css">
+    <title>科学计算器</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>科学计算器</h1>
+        <input type="text" id="show">
+
+        <ul>
+            <li><button onclick="calc_pow2()">x^2</button></li>
+            <li><button onclick="add('^')">x^y</button></li>
+            <li><button onclick="calc_pow10()">10^x</button></li>
+            <li><button onclick="calc_log()">log</button></li>
+        </ul>
+        <ul>
+            <li><button onclick="calc_sin();">sin</button></li>
+            <li><button onclick="calc_cos();">cos</button></li>
+            <li><button onclick="calc_tan();">tan</button></li>
+            <li><button onclick="add('/');">÷</button></li>
+        </ul>
+        <ul>
+            <li><button onclick="add('7')">7</button></li>
+            <li><button onclick="add('8')">8</button></li>
+            <li><button onclick="add('9')">9</button></li>
+            <li><button onclick="add('*')">×</button></li>
+        </ul>
+        <ul>
+            <li><button onclick="add('4')">4</button></li>
+            <li><button onclick="add('5')">5</button></li>
+            <li><button onclick="add('6')">6</button></li>
+            <li><button onclick="add('-')">－</button></li>
+        </ul>
+        <ul>
+            <li><button onclick="add('1')">1</button></li>
+            <li><button onclick="add('2')">2</button></li>
+            <li><button onclick="add('3')">3</button></li>
+            <li><button onclick="add('+')">＋</button></li>
+        </ul>
+        <ul>
+            <li><button id="btn_ce">CE</button></li>
+            <li><button onclick="add('0')">0</button></li>
+            <li><button onclick="add('.')">.</button></li>
+            <li><button id="btn_equal">＝</button></li>
+        </ul>
+    </div>
+
+<script type="text/javascript" src="js/calc_full.js" charset="utf-8"></script>
+</body>
+</html>

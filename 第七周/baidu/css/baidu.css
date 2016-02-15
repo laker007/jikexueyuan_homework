@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+.container .nav{
+    min-width: 800px;
+    height: 50px;
+}
+
+.container .nav div{
+    float: right;
+    margin: 19px 0 5px 0;
+    /*padding: 0 96px 0 0;*/
+}
+
+.container .nav a{
+    color: #333;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+    float: left;
+    /*display: inline-block;*/
+}
+
+.container .nav a:hover{
+    color: #00c;
+}
+
+.container .nav a:nth-child(7),.container .nav a:nth-child(8){
+    font-weight: normal;
+}
+
+.container .nav a:nth-child(9){
+    width: 60px;
+    height: 23px;
+    color: white;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 19px;
+    text-decoration: none;
+}
+
+.container .more_hover{
+    width: 90px;
+    height: 100%;
+    /*float: right;*/
+    background: #f9f9f9;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+
+.container .more_hover div{
+    color: #333;
+    text-align: center;
+    width: 66px;
+    height: 43px;
+    line-height: 43px;
+    padding-top: 9px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    font-size: 13px;
+    cursor: default;
+}
+
+.container .more_hover a{
+    display: block;
+    /*display: block;*/
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.container .more_hover a:hover{
+    text-decoration: underline;
+}
+
+.container .more_hover a:last-child{
+    margin-top: 15px;
+    height: 30px;
+    width: 85px;
+}
+
+.container .more_hover a span{
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto 5px;
+    background: url("../img/bdbri_icons_2e35e84b.png") no-repeat;
+    cursor: pointer;
+}
+
+.container .more_hover .music{
+    width: 40px;
+    background-position: -72px 0;
+}
+.container .more_hover .picture{
+    background-position: -112px 0;
+}
+.container .more_hover .know{
+    background-position: -36px 0;
+}
+.container .more_hover .wenku{
+    background-position: -148px 0;
+}
+.container .more_hover .top{
+    background-position: -184px 0;
+}
+.container .more_hover .spread{
+    background-position: -220px 0;
+}
+
+
+.container .logo_search{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.container .logo{
+    text-align: center;
+}
+
+.container .logo img{
+    width: 270px;
+}
+
+.container .search{
+    width: 640px;
+    height: 36px;
+    margin-top: 20px;
+}
+
+.container .search input{
+    width: 539px;
+    height: 36px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #b6b6b6;
+    border-color: #7b7b7b #b6b6b6 #b6b6b6 #7b7b7b;
+    background: #fff;
+    /*display: inline-block;*/
+    vertical-align: top;
+    margin-right: 0;
+    border-right-width: 0;
+    border-color: #b8b8b8 transparent #ccc #b8b8b8;
+    overflow: hidden;
+}
+
+.container .search button{
+    width: 100px;
+    height: 36px;
+    display: block;
+    float: left;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #3385ff;
+    border:0;
+    letter-spacing: 1px;
+    outline: medium;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    cursor: pointer;
+    border-bottom: 1px solid #2d78f4;
+}
+
+.container .footer{
+    width: 640px;
+    height: 60px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 250px;
+}
+
+.container .footer .mb_baidu,.container .footer .mb_nuomi{
+    float: left;
+    width: 150px;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.container .footer .mb_baidu div:first-child,.container .footer .mb_nuomi div:first-child{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.container .footer .mb_baidu div:nth-child(2),.container .footer .mb_nuomi div:nth-child(2){
+    float: left;
+    color: #999;
+    line-height: 23px;
+    margin: 8px 0 0 10px;
+}
+
+.container .footer .mb_baidu p,.container .footer .mb_nuomi p{
+    font-size: 12px;
+    color: #4c4c4c;
+}
+
+.container .footer .mb_baidu p:first-child,.container .footer .mb_nuomi p:first-child{
+    font-weight: bold;
+}
+
+.container .footer .others{
+    height: 60px;
+    float: left;
+}
+
+.container .footer .others p{
+    font-size: 12px;
+    color: #999;
+    /*line-height: 23px;*/
+    margin: 12px 0 5px 0;
+}
+
+.container .footer .others a{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.container .footer .others p:first-child a{
+    color: #000;
+}

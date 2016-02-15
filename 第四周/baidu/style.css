@@ -1,0 +1,122 @@
+div,a,p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+
+}
+
+#bd_nav{
+    display: none;
+}
+
+#setting_id{
+    display: none;
+}
+
+#login{
+    display: none;
+}
+
+#side{
+    display: none;
+}
+
+#bd_img{
+    text-align: center;
+}
+
+#bd_img img{
+    width: 270px;
+    height: 129px;
+}
+
+#bd_form {
+    height: 42px;
+    width: 100%;
+    margin: 0 10px;
+    /*border: 1px solid #8d9394;*/
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    /*-webkit-box-shadow: 0 1px 1px 0 #dfdfdf;*/
+    text-align: center;
+}
+
+#bd_button{
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*right: 0;*/
+    width: 79px;
+    height: 42px;
+    background: #ececec;
+    background: -webkit-linear-gradient(top,#f9f9f9,#e7e9eb);
+    color: #46484b;
+    -webkit-box-shadow: 0 0 0 1px #fff inset;
+    box-shadow: 0 0 0 1px #fff inset;
+    -webkit-text-shadow: 0 1px 0 #fafafa;
+    text-shadow: 0 1px 0 #fafafa;
+    white-space: nowrap;
+    line-height: 42px;
+    /*border-left: 1px solid #8d9394;*/
+    border: 1px solid #8d9394;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    top: -1px;
+}
+
+#bd_input{
+    position: relative;
+    top: -4px;
+    height: 42px;
+    width: 50%;
+    margin: 0;
+    line-height: 28px;
+    padding: 7px 42px 7px 6px;
+    overflow: visible;
+    box-sizing: border-box;
+    /*border: 1px solid #8d9394;*/
+}
+
+.usful_website{
+    /*height: 80px;*/
+    /*border: 1px solid #666666;*/
+    margin: 50px auto;
+    width: 100%;
+}
+
+.usful_website ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+.usful_website ul li{
+    float: left;
+    width: 33%;
+    margin-top: 10px;
+    /*line-height: 20px;*/
+    text-align: center;
+}
+
+.usful_website ul li a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer{
+    position: absolute;
+    bottom: 10px;
+    height: 30px;
+    font-size: 12px;
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+}
+
+#footer p:first-child{
+    display: none;
+}

@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #EFEEE9;
+}
+
+.header{
+    display: inline-block;
+    width: 1000px;
+    margin-top: 10px;
+
+}
+
+.header .header_left_div{
+    float: left;
+
+}
+
+.header .header_right_div{
+    float: right;
+}
+
+.header .header_right_div div p{
+    font-weight: bold;
+    font-size: 12px;
+    float: right;
+    margin-bottom: 20px;
+}
+
+.nav{
+
+}
+
+.nav ul{
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+
+.nav ul li{
+    float: left;
+    background: #fff;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 125px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.nav ul li a:hover{
+    background-color: #305CB1;
+    color: #fff;
+}
+
+.imax{
+    margin-top: 70px;
+}
+
+.content{
+    margin-top: 10px;
+    display: inline-block;
+    width: 1000px;
+}
+
+.content .left_block{
+    float: left;
+    background-color: #ffffff;
+}
+
+.content .left_title{
+    width: 650px;
+    height: 34px;
+    background-color: #FDFDFD;
+    border: 1px solid #EAEBEC;
+}
+
+.content .left_title span:first-child{
+    height: 34px;
+    width: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height:34px;
+    background: url("../img/font_bg.png") no-repeat;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+.content .left_title span:nth-child(2){
+    height: 34px;
+    width: 100px;
+    color:#0077CA;
+    font-weight: bold;
+    line-height: 34px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -3px;
+}
+
+.content .left_title a{
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    vertical-align: middle;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.content .left_content{
+    display: inline-block;
+    width: 650px;
+}
+
+.content .left_content .left_content_img{
+    margin: 10px;
+    width: 252px;
+    float: left;
+}
+
+.content .left_content .left_content_img a{
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #225599;
+    text-align: center;
+}
+
+.content .left_content .left_content_text{
+    float: left;
+
+}
+
+.content .left_content .left_content_text div a{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.content .left_content .left_content_text div a:hover{
+    text-decoration: underline;
+}
+
+.content .left_content .left_content_text div{
+    height: 30px;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 30px;
+    border-bottom: 1px dotted #E6E6E6;
+}
+
+.content .left_content .left_content_text div span{
+    float: right;
+}
+
+.content .right_block{
+    float: right;
+    width: 308px;
+}
+
+.content .right_block .right_block_img{
+    float: right;
+}
+
+.content .right_block .right_block_news{
+    float: right;
+    margin-top: 10px;
+
+}
+
+.content .right_block .right_block_news .right_block_news_title{
+    width: 307px;
+    height: 34px;
+    background-color: #FDFDFD;
+    border: 1px solid #EAEBEC;
+}
+
+.content .right_block .right_block_news span:first-child{
+    height: 34px;
+    width: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height:34px;
+    background: url("../img/font_bg.png") no-repeat;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+.content .right_block .right_block_news span:nth-child(2){
+    height: 34px;
+    width: 100px;
+    color:#0077CA;
+    font-weight: bold;
+    line-height: 34px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -3px;
+    left: -15px;
+}
+
+.content .right_block .right_block_news .right_block_news_content{
+    width: 308px;
+    height: 146px;
+    background-color: #ffffff;
+}
+
+.content .right_block .right_block_news .right_block_news_content p{
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.content .right_block .right_block_news .right_block_news_content p:first-child{
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.performance{
+    margin: 10px auto;
+    width: 1000px;
+}
+
+.performance .performance_title{
+    width: 998px;
+    height: 34px;
+    background-color: #FDFDFD;
+    border: 1px solid #EAEBEC;
+}
+
+.performance .performance_title span:first-child{
+    height: 34px;
+    width: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height:34px;
+    background: url("../img/font_bg.png") no-repeat;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+
+.performance .performance_title span:nth-child(2){
+    height: 34px;
+    width: 100px;
+    color:#0077CA;
+    font-weight: bold;
+    line-height: 34px;
+    font-size: 16px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -3px;
+}
+
+.performance .performance_title a{
+    float: right;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    vertical-align: middle;
+    height: 34px;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.performance .performance_img .img_con{
+    float: left;
+    height: 220px;
+    width: 168px;
+    background-color: white;
+    border: 1px solid #EAEBEC;
+    text-align: center;
+    margin: 16px 8px;
+}
+
+.performance .performance_img .img_con .img_pro{
+    height: 160px;
+    width: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #EAEBEC;
+}
+
+.performance .performance_img div:first-child,.performance .performance_img div:last-child{
+    height: 220px;
+    width: 15px;
+    margin: 16px 8px;
+    line-height: 220px;
+}
+
+.performance .performance_img div p{
+    font-size: 12px;
+}
+
+.footer{
+    width: 1000px;
+    height: 50px;
+    margin-top: 300px;
+    background-color: #EFEEE9;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}

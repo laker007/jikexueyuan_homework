@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 50px;
+    width: 500px;
+    position: absolute;
+    /*background: green;*/
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -250px;
+}
+
+#score{
+    height: 30px;
+    width: 200px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: bold;
+    float: left;
+}
+
+#change{
+    height: 30px;
+    width: 80px;
+    float: left;
+    font-size: 14px;
+}
+
+span{
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+    float: left;
+}
+
+h2{
+    float: left;
+}

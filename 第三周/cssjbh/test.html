@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>各种形状</title>
+    <style>
+        .triangle{
+            width: 0px;
+            height: 0px;
+            border: 20px solid;
+            /*border-bottom-color: black;*/
+            /*border-top-color: red;*/
+            /*border-right-color: green;*/
+            /*border-left-color: gray;*/
+            border-color: transparent red red transparent;
+            /*border-color: black red green gray;*/
+        }
+
+        .keystone{
+            width: 20px;
+            height: 0px;
+            border: 20px solid;
+            border-color: transparent transparent red transparent;
+        }
+
+        .round{
+            height: 200px;
+            width: 100px;
+            -webkit-border-radius: 200px 0 0 200px;
+            background-color: red;
+        }
+
+        .oval{
+            height: 100px;
+            width: 200px;
+            background-color: red;
+            -webkit-border-radius: 100px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="triangle"></div>
+        <div class="round"></div>
+        <div class="oval"></div>
+        <div class="keystone"></div>
+    </div>
+</body>
+</html>

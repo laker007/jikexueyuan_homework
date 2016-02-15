@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+}
+.container {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 400px;
+  width: 800px;
+  margin: auto;
+  position: absolute;
+}
+.top {
+  height: 90px;
+}
+.top .top-left {
+  width: 200px;
+  height: 90px;
+  text-align: center;
+  font-size: 100px;
+  line-height: 90px;
+  font-weight: bold;
+  float: left;
+  color: #E02772;
+}
+.top .top-right {
+  width: 600px;
+  height: 90px;
+  float: left;
+}
+.top .top-right .top-right--name {
+  height: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 60px;
+}
+.top .top-right .top-right--next {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  color: red;
+}
+.divid {
+  height: 2px;
+  width: 800px;
+  background-color: red;
+}
+.allstops {
+  width: 800px;
+  height: 200px;
+}
+.allstops ul {
+  margin-top: 10px;
+  list-style-type: none;
+}
+.allstops ul li {
+  width: 20px;
+  height: 100px;
+  font-size: 10px;
+  float: left;
+}
+.allstops ul .cur-stop {
+  color: red;
+}
+.footer {
+  height: 98px;
+  width: 800px;
+}
+.footer .footer-arrow {
+  margin-top: 30px;
+  width: 600px;
+  height: 98px;
+  float: left;
+}
+.footer .footer-arrow .footer-arrow--to {
+  font-size: 20px;
+  margin-left: 100px;
+}
+.footer .footer-arrow .footer-arrow--arrow {
+  width: 0;
+  height: 0;
+  float: left;
+  border-top: 13px solid transparent;
+  border-bottom: 14px solid #E02772;
+  border-left: 50px solid transparent;
+  border-right: 50px solid #E02772;
+}
+.footer .footer-arrow .footer-arrow--comp {
+  float: left;
+  width: 500px;
+  font-size: 20px;
+  background-color: #E02772;
+  font-weight: bold;
+  color: white;
+}
+.footer .footer-arrow .footer-arrow--price {
+  font-size: 10px;
+}
+.footer .footer-tips {
+  margin-top: 15px;
+  width: 200px;
+  height: 98px;
+  float: left;
+  font-size: 10px;
+}

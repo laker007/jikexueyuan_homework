@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("../img/bg-news-logo_344ce44.png");
+    background-repeat: no-repeat;
+    background-position: center 6px;
+    background-size: 77px auto;
+    background-color: #3e98f0;
+    height: 44px;
+}
+
+header .header-left {
+    float: left;
+}
+
+header .header-left .btn-baidu {
+    height: 44px;
+    width: 34px;
+    background-position: center 4px;
+    background-image: url("../img/bg-new-toolbar_6e9bc53.png");
+    background-repeat: no-repeat;
+    background-size: 40px 500px;
+    display: inline-block;
+}
+
+header .header-left .btn-userhome {
+    height: 44px;
+    width: 34px;
+    background-position: center -463px;
+    background-image: url("../img/bg-new-toolbar_6e9bc53.png");
+    background-repeat: no-repeat;
+    background-size: 40px 500px;
+    display: inline-block;
+}
+
+header .header-right {
+    float: right;
+}
+
+header .header-right .btn-search {
+    height: 44px;
+    width: 34px;
+    background-position: center -162px;
+    background-image: url("../img/bg-new-toolbar_6e9bc53.png");
+    background-repeat: no-repeat;
+    background-size: 40px 500px;
+    display: inline-block;
+}
+
+header .header-right .btn-subscribe {
+    height: 44px;
+    width: 34px;
+    background-position: center -107px;
+    background-image: url("../img/bg-new-toolbar_6e9bc53.png");
+    background-repeat: no-repeat;
+    background-size: 40px 500px;
+    display: inline-block;
+}
+
+.nav {
+    height: 40px;
+    background-color: #3e98f0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.nav .divider {
+    height: 1px;
+    margin: 0 10px;
+    background-color: #5dabf0;
+}
+
+.nav ul {
+    list-style-type: none;
+    height: 33px;
+    width: 100%;
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    width: 16.6%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav ul li span:hover {
+    border-bottom: 1px solid #fff;
+    margin: 0 2px;
+    padding-bottom: 3px;
+}
+
+.list-item {
+    height: 70px;
+    margin: 0 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.list-item .list-item-img {
+    height: 68px;
+    width: 95px;
+}
+
+.newstitle{
+    height: 40px;
+    width: 193px;
+    position: relative;
+    top: -72px;
+    left: 107px;
+}
+
+.addtime{
+    height: 20px;
+    position: relative;
+    top: -60px;
+    left: 0px;
+    padding-left: 107px;
+}

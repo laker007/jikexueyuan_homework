@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+
+}
+
+.header {
+    /*width: 1366px;*/
+    /*height: 719px;*/
+    padding-top: 900px;
+    /*padding-top: 550px;*/
+    /*background-image: url(image/icndy-freebie-header-background.png);*/
+    background: url("../image/icndy-freebie-header-all.png") no-repeat;
+    background-size: 100%;
+}
+
+.main-nav .content{
+    float: right;
+
+}
+
+.main-nav .content ul li{
+    float: left;
+    list-style-type: none;
+    padding: 0px 50px 0 0;
+    background: red;
+    font-size: 16px;
+    font-family: fantasy;
+}

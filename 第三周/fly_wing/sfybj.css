@@ -1,0 +1,60 @@
+.head {
+    width: auto;
+    height: 200px;
+    background-color: red;
+}
+
+.article {
+    height: 400px;
+    width: auto;
+    background-color: gray;
+}
+
+.middle {
+    height: auto;
+    width: 100%;
+    background-color: blue;
+    float: left;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.left {
+    height: 18px;
+    width: 100px;
+    background-color: aqua;
+    float: left;
+    margin-left: -100%;
+    /*position: relative;*/
+    /*left: -200px;*/
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.right {
+    height: 18px;
+    width: 100px;
+    background-color: chartreuse;
+    float: left;
+    margin-left: -100px;
+    /*position: relative;*/
+    /*right: 200px;*/
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.foot {
+    width: auto;
+    height: 100px;
+    background-color: green;
+}
+
+.article {
+    /*padding-left: 200px;*/
+    overflow: hidden;
+}
+
+.inner {
+    margin-left: 100px;
+
+}

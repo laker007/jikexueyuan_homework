@@ -1,0 +1,124 @@
+@main-height: 400px;
+@main-width: 800px;
+@top-height: 90px;
+@font-color: red;
+@number-color: #E02772;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+
+.container {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: @main-height;
+    width: @main-width;
+    // background-color: gray;
+    margin: auto;
+    position: absolute;
+}
+
+.top {
+    height: @top-height;
+    .top-left {
+        width: 200px;
+        height: @top-height;
+        text-align: center;
+        font-size: 100px;
+        line-height: @top-height;
+        font-weight: bold;
+        float: left;
+        color: @number-color;
+    }
+    .top-right {
+        width: 600px;
+        height: @top-height;
+        float: left;
+        .top-right--name {
+            height: 60px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 60px;
+        }
+        .top-right--next {
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            color: @font-color;
+        }
+    }
+}
+
+.divid {
+    height: 2px;
+    width: @main-width;
+    background-color: @font-color;
+}
+
+.allstops {
+    width: @main-width;
+    height: 200px;
+    ul {
+        margin-top: 10px;
+        list-style-type: none;
+        li {
+            width: 20px;
+            height: 100px;
+            font-size: 10px;
+            float: left;
+        }
+        .cur-stop {
+            color: @font-color;
+        }
+    }
+}
+
+.footer {
+    height: 98px;
+    width: 800px;
+    // background-color: red;
+    .footer-arrow {
+        margin-top: 30px;
+        width: 600px;
+        height: 98px;
+        float: left;
+        .footer-arrow--to {
+            font-size: 20px;
+            margin-left: 100px;
+        }
+        .footer-arrow--arrow {
+            width: 0;
+            height: 0;
+            // background-color: red;
+            float: left;
+            border-top: 13px solid transparent;
+            border-bottom: 14px solid #E02772;
+            border-left: 50px solid transparent;
+            border-right: 50px solid #E02772;
+        }
+        .footer-arrow--comp {
+            float: left;
+            width: 500px;
+            font-size: 20px;
+            // margin-left: 100px;
+            background-color: @number-color;
+            font-weight: bold;
+            color: white;
+        }
+        .footer-arrow--price {
+            font-size: 10px;
+        }
+    }
+    .footer-tips {
+        margin-top: 15px;
+        width: 200px;
+        height: 98px;
+        float: left;
+        font-size: 10px;
+    }
+}
